@@ -1,8 +1,18 @@
-#macOS
+# ==========================================================
+# Operating System
+# ==========================================================
+
+# macOS
 .DS_Store
 
-# Java
+# ==========================================================
+# Java / Maven
+# ==========================================================
+
+# Compiled Java files
 *.class
+
+# Java archives
 *.jar
 *.war
 *.ear
@@ -10,7 +20,42 @@
 # Maven
 target/
 
-# VS Code
+# ==========================================================
+# Python
+# ==========================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# ==========================================================
+# IDEs / Editors
+# ==========================================================
+
+# Visual Studio Code
 .vscode/
 
 # IntelliJ IDEA
@@ -22,9 +67,34 @@ target/
 .classpath
 .settings/
 
+# ==========================================================
 # Logs
+# ==========================================================
+
 *.log
 
-# Temporary files
+# ==========================================================
+# Temporary Files
+# ==========================================================
+
 *.tmp
 *.temp
+*.swp
+*.swo
+*~
+
+# ==========================================================
+# Miscellaneous
+# ==========================================================
+
+# Python type checker cache
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Pyright
+.pyright/
+
+# macOS resource forks
+._*
